@@ -16,7 +16,7 @@ function Projects({ }) {
 
     return (
         <div>
-            <ul className="list">
+            <ul>
                 {list}
             </ul>
         </div>

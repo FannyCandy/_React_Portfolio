@@ -11,7 +11,7 @@ function Project({ data }) {
             <img src={imgPath} alt="image" style={{ width: 500, height: 300 }} />
             <br></br>
             <a href={app} target="_blank" rel="noreferrer">{name}_</a>
-            <a href={gitHub}><img src="/src/assets/github-mark.svg" alt="image" style={{ width: 27, height: 27 }} /></a>
+            <a href={gitHub}><img src="/github-mark.svg" alt="image" style={{ width: 27, height: 27 }} /></a>
         </div>
     )
 }

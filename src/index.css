@@ -69,6 +69,6 @@
 }
 
 .container {
-  display: flex;
+  display: inline-flex;
   place-items: center;
 }
