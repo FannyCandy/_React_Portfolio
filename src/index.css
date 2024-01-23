@@ -89,7 +89,6 @@ input[type=text] {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
-  text-align:initial;
 }
 
 #message {
