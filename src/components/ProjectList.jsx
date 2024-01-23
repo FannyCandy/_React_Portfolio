@@ -3,7 +3,7 @@ import Project from "./Project";
 
 console.log(projectData)
 
-function Projects( { } ) {
+function Projects({ }) {
 
     const list = projectData.map(project => {
         return (
@@ -15,7 +15,11 @@ function Projects( { } ) {
     })
 
     return (
-        <ul> {list} </ul>
+        <div>
+            <ul>
+                {list}
+            </ul>
+        </div>
     )
 }
 

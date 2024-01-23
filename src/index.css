@@ -7,6 +7,7 @@
 
 }
 
+
 .footer {
   /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
   min-height: 50px;
@@ -16,10 +17,12 @@
   text-align: center;
   font-size: 1.10em;
   position: fixed;
+
   a {
     color: darkolivegreen;
     text-decoration: inherit;
   }
+
   a:hover {
     color: rgb(124, 123, 123);
   }
@@ -31,6 +34,7 @@
   font-weight: 300;
   min-height: 60px;
   text-align: center;
+
   a {
     color: darkolivegreen;
     text-decoration: inherit;
@@ -43,10 +47,28 @@
   justify-content: center;
   min-height: 50px;
   align-items: center;
+
   a {
-      color: #f4f9f6;
-      padding: 0.5em;
-      margin-right: 1em;
-      text-decoration: none;
+    color: #f4f9f6;
+    padding: 0.5em;
+    margin-right: 1em;
+    text-decoration: none;
   }
+}
+
+.project {
+  /* justify-content: center; */
+  text-align: center;
+  margin: 1.5em;
+
+  a {
+    color: darkolivegreen;
+    text-decoration: inherit;
+    font-size: 27px;
+  }
+}
+
+.container {
+  display: flex;
+  place-items: center;
 }

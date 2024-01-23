@@ -7,10 +7,11 @@ function Project({ data }) {
     console.log('project data', data)
 
     return (
-        <div key={id}>
-            <img url={imgPath} alt="image"/>
-            <a href={app} target="_blank" rel="noreferrer">{name}</a>
-            <a href={gitHub}><img url="../assets/github-marking.svg" alt="image" style={{width:40, height:40,}}/></a>
+        <div key={id} className="project">
+            <img src={imgPath} alt="image" style={{ width: 500, height: 300 }} />
+            <br></br>
+            <a href={app} target="_blank" rel="noreferrer">{name}_</a>
+            <a href={gitHub}><img src="/src/assets/github-mark.svg" alt="image" style={{ width: 27, height: 27 }} /></a>
         </div>
     )
 }
