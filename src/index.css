@@ -17,6 +17,9 @@
   text-align: center;
   font-size: 1.10em;
   position: fixed;
+  margin: 0;
+  padding-top: 20px;
+  background-color: rgba(244, 249, 246, 0.7);
 
   a {
     color: darkolivegreen;
@@ -71,4 +74,31 @@
 .container {
   display: inline-flex;
   place-items: center;
+}
+
+h3 {
+  color: darkolivegreen;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #f4f9f6;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+button {
+  background-color: darkolivegreen;
+  color: #f4f9f6;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: #9cbcac;
 }
